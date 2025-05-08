@@ -81,7 +81,7 @@
       contentHtml += `
                 <div class="gap-m column">
                   <!-- SVGIcons -->
-                  <div class="gap-l box-l">`;
+                  <div class="gap-l box-l" style="flex-wrap: wrap;">`;
       icons.map(icon => {
         contentHtml += `
                     <svg-icon class="icon-xs" html="${icon}">
