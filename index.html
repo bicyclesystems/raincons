@@ -1,68 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- meta info -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- rene.css -->
-    <link rel="stylesheet" href="https://unpkg.com/@rnbws/renecss/dist/rene.min.css" />
-
-    <!-- SVGIcon module js -->
-    <script type="module" src="https://unpkg.com/@rnbws/svg-icon.js/dist/svg-icon.min.js"></script>
-
-    <!-- main js file -->
+    <link rel="stylesheet" href="https://renecss.org/rene.css" />
+    <script src-path="./icons/" src="https://bicyclesystems.github.io/svg-icon/svg-icon.js"></script>
     <script type="module" src="./icons.js"></script>
-
-    <!-- page title -->
     <title>Raincons</title>
   </head>
-
   <body>
-    <!-- ******************** container begin ******************** -->
     <div class="view column align-center">
       <div class="page gap-xl">
-
-
-        <!-- Header -->
         <div class="box-l column gap-m">
-          <!-- Left Panel -->
           <div class="box column">
             <h1>Raincons</h1>
-            <h4>
-              12x12 icons designed for clean, minimal, and info-rich interfaces.
-            </h4>
+            <h4>12x12 icons designed for clean, minimal, and info-rich interfaces.</h4>
           </div>
-          <!-- Right Panel -->
-
         </div>
-
-        <!-- Search Input -->
         <div>
           <input
-            class="border-bottom"
-            style="
-              border: none;
-              border-bottom: 1px solid;
-              padding: 0;
-            "
+            style="border: none; border-bottom: 1px solid; padding: 0;"
             id="searchInput"
             type="text"
             placeholder="Search"
           />
         </div>
-
-        <!-- Content -->
-        <div id="content" class="box-l gap-xl column" style="flex-wrap: wrap;">
-          <!-- Here, icons.js fetch all of the svg icons from /icons directory -->
-           
-        </div>
+        <div id="content" class="box-l gap-xl column" style="flex-wrap: wrap;"></div>
         <div class="gap-m">
-          <svg-icon class="icon-s post-icon">github</svg-icon>
           <a href="https://github.com/rnbwdev/raincons">GitHub</a>
         </div>
       </div>
     </div>
-    <!-- ******************** container end ******************** -->
   </body>
 </html>
